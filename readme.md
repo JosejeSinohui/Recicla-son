@@ -8,7 +8,7 @@
 4. pull otra vez
 5. push
 
-### [Link a la pagina<---pendiente] (#)
+### [Link a la pagina] (https://josejesinohui.github.io/Recicla-son/)
 - [/] Poner el mapita usando el api de google (ejemplo https://developers.google.com/maps/documentation/embed/start) <--masomenas hecha :v
 - [/] Hacer un contact form hasta abajo responsivo de bootstrap o lo que sea y usar [Formspree.io] (https://formspree.io/) <-- Falta saber si funciona, nomas se puede probar en un webserver(?)
 - [] mover algunos detalles como el circulo alrededor del logo
