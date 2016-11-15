@@ -11,6 +11,9 @@
 #### como hacer mapitas 
 - te metes [aquí] (https://www.google.com/maps/d/u/0/) 
 
+### Recicladoras de hermosillo
+- [aquimero](https://docs.google.com/document/d/1Vgbc9p5K2CtkC-yswHeUqSrF_GB1ZjAMp01KOHGCCzg/edit?usp=sharing)
+
 ### [Link a la pagina] (https://josejesinohui.github.io/Recicla-son/) TODO:
 - ~~[/] Poner el mapita usando el api de google (ejemplo https://developers.google.com/maps/documentation/embed/start) <--masomenas hecha :v ~~
 - ~~[/] Hacer un contact form hasta abajo responsivo de bootstrap o lo que sea y usar [Formspree.io] (https://formspree.io/) <-- Falta saber si funciona, nomas se puede probar en un webserver(?)~~
