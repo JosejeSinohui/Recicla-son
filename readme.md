@@ -8,8 +8,9 @@
 4. pull otra vez
 5. push
 
-#### como hacer mapitas 
-- te metes [aquí] (https://www.google.com/maps/d/u/0/) 
+#### como hacer mapitas
+- te metes [aquí] (https://www.google.com/maps/d/u/0/)
+- [tutorial en 7 pasos para hacer mapas] (https://docs.google.com/document/d/1blbbK8FZfFxg0wnT7VVrBbqV3Lo8XT36msRpvZXO6mA/edit?usp=sharing) 
 
 ### Recicladoras de hermosillo
 - [aquimero](https://docs.google.com/document/d/1Vgbc9p5K2CtkC-yswHeUqSrF_GB1ZjAMp01KOHGCCzg/edit?usp=sharing)
