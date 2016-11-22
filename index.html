@@ -87,10 +87,8 @@
                 <div class="col-sm-6">
 
                     <h2>Quienes somos</h2>
-                    <p>Somos estudiantes de la universidad de sonora, particularmente de la carrera de Ingenieria en sistemas
-                        de la informacion, buscamos mediante este servicio, que el indice de reciclaje en nuestra ciudad
-                        aumente, donde tanto como la recicladora, la persona que busca reciclar y el medio ambiente se ven
-                        beneficiados.
+                    <p>Somos estudiantes de la universidad de sonora, particularmente de la carrera de Ingenieria en sistemas de la informacion, buscamos mediante este servicio, que el indice de reciclaje en nuestra ciudad aumente, donde tanto como la recicladora,
+                        la persona que busca reciclar y el medio ambiente se ven beneficiados.
                     </p>
                     <img class="img-fluid" style="width:75%" src="images/kepasa.png" alt="" />
 
@@ -113,21 +111,56 @@
             <!-- aqui va a ir todo el desmadre que se pueda reciclar, lo ideal seria
                que fueran links a alguna animacion que traiga el mapa, o si nos ponemos
                fresones pues que traiga otra vista con node o quien sabe que wea
-               
+
                 andan valiendo verga los iconitos  -->
 
 
             <div class="row">
 
                 <div class="col-sm-4">
-                    <i class="fa fa-question fa-5x" aria-hidden="true"></i>
-                    <h3>Basurero General</h3>
+                    <i data-toggle="modal" data-target="#myModal-carton" class="fa fa-dropbox fa-5x" aria-hidden="true"></i>
+                    <!-- Modal -->
+                    <div id="myModal-carton" class="modal fade" role="dialog">
+                        <div class="modal-dialog modal-lg">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Recicladoras de cartón</h4>
+                                </div>
+                                <div class="modal-body kk">
+                                    <iframe src="https://www.google.com/maps/d/embed?mid=1AW69PjD0twYm7ozcQ9Ol5A3qLIQ&z=12&ll=29.095224,-110.966377" width=100% height="500"></iframe>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <h3>Reciclar cartón</h3>
                     <p>Información sobre lo que se desea reciclar</p>
                 </div>
 
                 <div class="col-sm-4">
-                    <i class="fa fa-question fa-5x" aria-hidden="true"></i>
-                    <h3>Reciclar Papel</h3>
+                    <i data-toggle="modal" data-target="#myModal-bateria"class="fa fa-battery-empty fa-5x" aria-hidden="true"></i>
+                    <div id="myModal-bateria" class="modal fade" role="dialog">
+                        <div class="modal-dialog modal-lg">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Recicladoras de baterías</h4>
+                                </div>
+                                <div class="modal-body kk">
+                                    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1lonwQTmhD9vrVz8mlFZaih3HtDc&z=12&ll=29.095224,-110.966377" width=100% height="500"></iframe>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <h3>Reciclar Baterías</h3>
                     <p>Información sobre lo que se desea reciclar</p>
                 </div>
 
@@ -189,7 +222,7 @@
                             <textarea name="InputMessage" class="form-control" rows="5" required></textarea>
                         </div>
 
-                        <input value="Enviar" type="submit" class="btn btn-info pull-right"/>
+                        <input value="Enviar" type="submit" class="btn btn-info pull-right" />
                     </form>
                 </div>
             </div>
