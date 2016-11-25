@@ -15,6 +15,9 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <script src="https://use.fontawesome.com/b3064fc60b.js"></script>
 
@@ -33,7 +36,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+
                 <a class="navbar-brand page-scroll" href="#page-top">Reciclason <i class="fa fa-recycle" aria-hidden="true"></i></span></a>
+
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -62,265 +67,262 @@
 
 
     <!-- Intro Section, falta hacer esto mas wapo -->
-    <section id="intro" class="intro-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <header id="header" class="alt">
-                        <span class="logo"><i class="fa fa-recycle fa-5x" aria-hidden="true"></i></span>
-                        <h1>Reciclason</h1>
-                        <p>Un lugar para informarte de los lugares disponibles para reciclar<br />
-                        </p>
-                    </header>
+    <div class="container">
+        <section id="intro" class="intro-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <header id="header" class="alt">
+
+                            <img class="img-fluid logo" src="images/reciclasonlogo.png" alt="">
+
+                            <p align=center>Un lugar para informarte de los lugares disponibles para reciclar<br />
+                            </p>
+                        </header>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- About Section falta hacerlo wapo tmb -->
-    <section id="about" class="about-section">
+        <!-- About Section falta hacerlo wapo tmb -->
+        <section id="about" class="about-section">
 
-        <div class="container">
+            <div class="container">
 
-            <div class="row">
+                <div class="row">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-6">
+
+                        <h2 align=center !important>Quienes somos</h2>
+                        <p>Somos estudiantes de la universidad de sonora, particularmente de la carrera de Ingenieria en sistemas de la informacion, buscamos mediante este servicio, que el indice de reciclaje en nuestra ciudad aumente, donde tanto como la
+                            recicladora, la persona que busca reciclar y el medio ambiente se ven beneficiados. aqui abajo ba la selfiiii
+                        </p>
+                        <img src="images/IMG_4206.JPG" class="img-responsive img-rounded" alt="">
+
+
+                    </div>
+                    <div class="col-sm-3"></div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Services Section -->
+
+        <section id="services" class="services-section">
+
+            <h1>¿Qué quieres reciclar?</h1>
+
+            <div class="container-fluid">
+
+                <!-- aqui va a ir todo el desmadre que se pueda reciclar, lo ideal seria
+                 que fueran links a alguna animacion que traiga el mapa, o si nos ponemos
+                 fresones pues que traiga otra vista con node o quien sabe que wea
+
+                  andan valiendo verga los iconitos  -->
+
+
+                <div class="row">
+
+                    <div class="col-sm-4">
+                        <i data-toggle="modal" data-target="#myModal-carton" class="fa fa-dropbox fa-5x" aria-hidden="true"></i>
+                        <!-- Modal -->
+                        <div id="myModal-carton" class="modal fade" role="dialog">
+                            <div class="modal-dialog modal-lg">
+
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Recicladoras de cartón</h4>
+                                    </div>
+                                    <div class="modal-body kk">
+                                        <iframe src="https://www.google.com/maps/d/embed?mid=1AW69PjD0twYm7ozcQ9Ol5A3qLIQ&ll=29.17222695624177%2C-111.06910318546068&z=12" width=100% height="500"></iframe>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <h3>Reciclar cartón</h3>
+                        <p>Información sobre lo que se desea reciclar</p>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <i data-toggle="modal" data-target="#myModal-bateria" class="fa fa-battery-empty fa-5x" aria-hidden="true"></i>
+                        <div id="myModal-bateria" class="modal fade" role="dialog">
+                            <div class="modal-dialog modal-lg">
+
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Recicladoras de baterías</h4>
+                                    </div>
+                                    <div class="modal-body kk">
+                                        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1lonwQTmhD9vrVz8mlFZaih3HtDc&ll=29.17222695624177%2C-111.06910318546068&z=12" width=100% height="500"></iframe>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <h3>Reciclar Baterías</h3>
+                        <p>Información sobre lo que se desea reciclar</p>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <i data-toggle="modal" data-target="#myModal-plastico" class="fa fa-bitbucket fa-5x" aria-hidden="true"></i>
+                        <!-- Modal -->
+                        <div id="myModal-plastico" class="modal fade" role="dialog">
+                            <div class="modal-dialog modal-lg">
+
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Recicladoras de Plástico</h4>
+                                    </div>
+                                    <div class="modal-body kk">
+                                        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1z4ff19UCnTF5gwY--gfdK2XJpn4&ll=29.17222695624177%2C-111.06910318546068&z=12" width="100%" height="500"></iframe>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <h3>Reciclar Plástico</h3>
+                        <p>Información sobre lo que se desea reciclar</p>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-4">
+                        <i data-toggle="modal" data-target="#myModal-papel" class="fa fa-newspaper-o fa-5x" aria-hidden="true"></i>
+                        <!-- Modal -->
+                        <div id="myModal-papel" class="modal fade" role="dialog">
+                            <div class="modal-dialog modal-lg">
+
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Recicladoras de Papel</h4>
+                                    </div>
+                                    <div class="modal-body kk">
+                                        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1YtIGGuPMZp7IWQ-XS44o4JUg96w&ll=29.17222695624177%2C-111.06910318546068&z=12" width=100% height="501"></iframe>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <h3>Reciclar Papel</h3>
+                        <p>Información sobre lo que se desea reciclar</p>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <i data-toggle="modal" data-target="#myModal-metal" class="fa fa-anchor fa-5x" aria-hidden="true"></i>
+                        <div id="myModal-metal" class="modal fade" role="dialog">
+                            <div class="modal-dialog modal-lg">
+
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Recicladoras de Metal</h4>
+                                    </div>
+                                    <div class="modal-body kk">
+                                        <iframe src="https://www.google.com/maps/d/embed?mid=1_0lMt0dEY3SjillwwZ-V8yodjoI&ll=29.17222695624177%2C-111.06910318546068&z=12" width=100% height="500"></iframe>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <h3>Reciclar Metal</h3>
+                        <p>Información sobre lo que se desea reciclar</p>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <i data-toggle="modal" data-target="#myModal-vidrio" class="fa fa-flask fa-5x" aria-hidden="true"></i>
+                        <div id="myModal-vidrio" class="modal fade" role="dialog">
+                            <div class="modal-dialog modal-lg">
+
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Recicladoras de Vidrio</h4>
+                                    </div>
+                                    <div class="modal-body kk">
+                                        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1nR49IVAKpyUVydnBxRXHG-wrX3k&ll=29.17222695624177%2C-111.06910318546068&z=12" width=100% height="500"></iframe>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <h3>Reciclar vidrio</h3>
+                        <p>Información sobre lo que se desea reciclar</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Contact Section desmadre del formspree   tmb vale verga-->
+        <section id="contact" class="contact-section">
+            <h1>¡Contáctanos!</h1>
+
+            <div class="container-fluid">
                 <div class="col-sm-3"></div>
                 <div class="col-sm-6">
+                    <div class="contact">
+                        <form>
+                            <div class="form-group">
+                                <label for="InputName">Tu nombre</label>
+                                <input type="text" class="form-control" name="name" placeholder="Introduce tu nombre" required>
+                            </div>
 
-                    <h2>Quienes somos</h2>
-                    <p>Somos estudiantes de la universidad de sonora, particularmente de la carrera de Ingenieria en sistemas
-                        de la informacion, buscamos mediante este servicio, que el indice de reciclaje en nuestra ciudad
-                        aumente, donde tanto como la recicladora, la persona que busca reciclar y el medio ambiente se ven
-                        beneficiados.
-                    </p>
-                    <img class="img-fluid" style="width:75%" src="images/kepasa.png" alt="" />
+                            <div class="form-group">
+                                <label for="InputEmail">Tu correo</label>
+                                <input type="email" class="form-control" name="_replyto" placeholder="Introduce tu correo" required>
+                            </div>
 
+                            <div class="form-group">
+                                <label for="InputMessage">Tu mensaje</label>
+                                <textarea name="InputMessage" class="form-control" rows="5" required></textarea>
+                            </div>
+
+
+                        </form>
+                        <button class="btn btn-info pull-right" data-toggle="modal" data-target=".bs-example-modal-sm">Enviar</button>
+
+                        <div class="modal fade bs-example-modal-sm in" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                            <div class="modal-dialog modal-sm" role="document">
+
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="close">&times;</button>
+                                        <h4 class="modal-title"> ¡Gracias por su opinión!</h4>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-3"></div>
             </div>
+        </section>
+    </div>
 
-        </div>
-    </section>
-
-
-    <!-- Services Section -->
-
-    <section id="services" class="services-section">
-
-        <h1>¿Qué quieres reciclar?</h1>
-
-        <div class="container-fluid">
-
-            <!-- aqui va a ir todo el desmadre que se pueda reciclar, lo ideal seria
-               que fueran links a alguna animacion que traiga el mapa, o si nos ponemos
-               fresones pues que traiga otra vista con node o quien sabe que wea
-
-                andan valiendo verga los iconitos  -->
-
-
-            <div class="row">
-
-                <div class="col-sm-4">
-                    <i data-toggle="modal" data-target="#myModal-carton" class="fa fa-dropbox fa-5x" aria-hidden="true"></i>
-                    <!-- Modal -->
-                    <div id="myModal-carton" class="modal fade" role="dialog">
-                        <div class="modal-dialog modal-lg">
-
-                            <!-- Modal content-->
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    <h4 class="modal-title">Recicladoras de cartón</h4>
-                                </div>
-                                <div class="modal-body kk">
-                                    <iframe src="https://www.google.com/maps/d/embed?mid=1AW69PjD0twYm7ozcQ9Ol5A3qLIQ&ll=29.17222695624177%2C-111.06910318546068&z=12"
-                                        width=100% height="500"></iframe>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <h3>Reciclar cartón</h3>
-                    <p>Información sobre lo que se desea reciclar</p>
-                </div>
-
-                <div class="col-sm-4">
-                    <i data-toggle="modal" data-target="#myModal-bateria" class="fa fa-battery-empty fa-5x" aria-hidden="true"></i>
-                    <div id="myModal-bateria" class="modal fade" role="dialog">
-                        <div class="modal-dialog modal-lg">
-
-                            <!-- Modal content-->
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    <h4 class="modal-title">Recicladoras de baterías</h4>
-                                </div>
-                                <div class="modal-body kk">
-                                    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1lonwQTmhD9vrVz8mlFZaih3HtDc&ll=29.17222695624177%2C-111.06910318546068&z=12"
-                                        width=100% height="500"></iframe>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <h3>Reciclar Baterías</h3>
-                    <p>Información sobre lo que se desea reciclar</p>
-                </div>
-
-                <div class="col-sm-4">
-                    <i data-toggle="modal" data-target="#myModal-plastico" class="fa fa-bitbucket fa-5x" aria-hidden="true"></i>
-                    <!-- Modal -->
-                    <div id="myModal-plastico" class="modal fade" role="dialog">
-                        <div class="modal-dialog modal-lg">
-
-                            <!-- Modal content-->
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    <h4 class="modal-title">Recicladoras de Plástico</h4>
-                                </div>
-                                <div class="modal-body kk">
-                                    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1z4ff19UCnTF5gwY--gfdK2XJpn4&ll=29.17222695624177%2C-111.06910318546068&z=12"
-                                        width="100%" height="500"></iframe>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <h3>Reciclar Plástico</h3>
-                    <p>Información sobre lo que se desea reciclar</p>
-                </div>
-
-            </div>
-
-            <div class="row">
-
-                <div class="col-sm-4">
-                    <i data-toggle="modal" data-target="#myModal-papel" class="fa fa-newspaper-o fa-5x" aria-hidden="true"></i>
-                    <!-- Modal -->
-                    <div id="myModal-papel" class="modal fade" role="dialog">
-                        <div class="modal-dialog modal-lg">
-
-                            <!-- Modal content-->
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    <h4 class="modal-title">Recicladoras de Papel</h4>
-                                </div>
-                                <div class="modal-body kk">
-                                    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1YtIGGuPMZp7IWQ-XS44o4JUg96w&ll=29.17222695624177%2C-111.06910318546068&z=12"
-                                        width=100% height="501"></iframe>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <h3>Reciclar Papel</h3>
-                    <p>Información sobre lo que se desea reciclar</p>
-                </div>
-
-                <div class="col-sm-4">
-                    <i data-toggle="modal" data-target="#myModal-metal" class="fa fa-anchor fa-5x" aria-hidden="true"></i>
-                    <div id="myModal-metal" class="modal fade" role="dialog">
-                        <div class="modal-dialog modal-lg">
-
-                            <!-- Modal content-->
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    <h4 class="modal-title">Recicladoras de Metal</h4>
-                                </div>
-                                <div class="modal-body kk">
-                                    <iframe src="https://www.google.com/maps/d/embed?mid=1_0lMt0dEY3SjillwwZ-V8yodjoI&ll=29.17222695624177%2C-111.06910318546068&z=12"
-                                        width=100% height="500"></iframe>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <h3>Reciclar Metal</h3>
-                    <p>Información sobre lo que se desea reciclar</p>
-                </div>
-
-                <div class="col-sm-4">
-                    <i data-toggle="modal" data-target="#myModal-vidrio" class="fa fa-flask fa-5x" aria-hidden="true"></i>
-                    <div id="myModal-vidrio" class="modal fade" role="dialog">
-                        <div class="modal-dialog modal-lg">
-
-                            <!-- Modal content-->
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    <h4 class="modal-title">Recicladoras de Vidrio</h4>
-                                </div>
-                                <div class="modal-body kk">
-                                    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1nR49IVAKpyUVydnBxRXHG-wrX3k&ll=29.17222695624177%2C-111.06910318546068&z=12"
-                                        width=100% height="500"></iframe>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <h3>Reciclar vidrio</h3>
-                    <p>Información sobre lo que se desea reciclar</p>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- Contact Section desmadre del formspree   tmb vale verga-->
-    <section id="contact" class="contact-section">
-        <h1>¡Contáctanos!</h1>
-
-        <div class="container-fluid">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-6">
-                <div class="contact">
-                    <form>
-                        <div class="form-group">
-                            <label for="InputName">Tu nombre</label>
-                            <input type="text" class="form-control" name="name" placeholder="Introduce tu nombre" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="InputEmail">Tu correo</label>
-                            <input type="email" class="form-control" name="_replyto" placeholder="Introduce tu correo" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="InputMessage">Tu mensaje</label>
-                            <textarea name="InputMessage" class="form-control" rows="5" required></textarea>
-                        </div>
-
-
-                    </form>
-                    <button class="btn btn-info pull-right" data-toggle="modal" data-target=".bs-example-modal-sm">Enviar</button>
-
-                    <div class="modal fade bs-example-modal-sm in" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
-                        <div class="modal-dialog modal-sm" role="document">
-                            
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="close">&times;</button>
-                                <h4 class="modal-title"> ¡Gracias por su opinión!</h4>
-                            </div>
-                               
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3"></div>
-        </div>
-    </section>
 
 
 
